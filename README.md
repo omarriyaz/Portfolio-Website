@@ -1,2 +1,0 @@
-# omarriyaz.github.io
-Portfolio
