@@ -3,6 +3,10 @@ import { FaGithub, FaYoutubeSquare } from "react-icons/fa";
 import { RiFilePdf2Fill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
+const openPDF = (pdfUrl) => {
+  window.open(pdfUrl, "_blank");
+};
+
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -37,9 +41,10 @@ const Projects = () => {
               )}
               {/* PDF icon */}
               {project.pdfName && (
-                <a href={project.pdfName} target="_blank" rel="noopener noreferrer">
-                  <RiFilePdf2Fill className="text-2xl hover:text-purple-500 cursor-pointer ml-4" />
-                </a>
+                <RiFilePdf2Fill
+                  className="text-2xl hover:text-purple-500 cursor-pointer ml-4"
+                  onClick={() => openPDF(project.pdfName)}
+                />
               )}
             </motion.div>
             <motion.div

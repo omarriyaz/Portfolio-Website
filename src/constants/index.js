@@ -1,3 +1,8 @@
+import CA from "../assets/FURGUIDE.pdf";
+import Diss from "../assets/Diss.pdf";
+import RO from "../assets/F21RO.pdf";
+
+
 export const HERO_CONTENT = `I'm a BSc Computer Science Honors graduate from Heriot-Watt University with a focus on AI and Data Science. I'm skilled in Python, Java, SQL, and other programming languages, and have hands-on experience in Robotics, Machine Learning, and Data Analytics and Visualization. I've gained practical knowledge in Intelligent Automation and Cyber Security through internships and a Teaching Assistant role. I have strong communication skills, am self-driven, and always eager to learn. I'm particularly interested in AI applications in healthcare, sustainability, and automation. Outside of tech, I'm also a music producer with a successful YouTube channel and a competitive basketball player with leadership experience.`;
 
 export const EXPERIENCES = [
@@ -42,13 +47,13 @@ export const PROJECTS = [
 
   {
     title: "Conversational Agent Project",
-    subtitle: "Impact of Narratives on Human-Robot Interactions",
+    subtitle: "Impact of Narratives on HRI",
     description:
       "Lead a group of 8 that conducted a study exploring the implementation of narratives in human-robot interactions to aid navigation tasks. Utilizing a Furhat robot paired with OpenAI’s GPT 3.5 as a dialogue system, we investigated the impact of narratives on instruction correctness, utility, and recall, along with their influence on the quantity of follow-up questions and the Furhat robot's anthropomorphism and likeability. The research aimed to deepen understanding of user experience and cognitive processes in narrative-based interactions. The experiment involved Python for data analysis, Kotlin for Furhat robot programming, prompt engineering, building a virtual environment and rigorous experimental design to ensure optimal results.",
     technologies: ["Python", "Kotlin", "Prompt Engineering", "NLP", "NLG"],
     githubUrl: "https://github.com/Shivaanee/Furhat-Nav-Assistant",
     youtubeLink: "https://www.youtube.com/watch?v=13Q6qLhceL8",
-    pdfName: "FURGUIDE.pdf",
+    pdfName: CA,
   },
 
   {
@@ -58,7 +63,7 @@ export const PROJECTS = [
       "During my 4th Year Honours project, I developed a Teaching Assistant Chatbot integrating machine learning and natural language processing. Leveraging technologies such as PyPDF2 for slide text extraction, LangChain for preprocessing and conversational retrieval, and OpenAI's GPT-3.5 Turbo Chat Model for responses, the chatbot enables students to interact with lecture materials via natural language queries. The final dissertation received an A grade, demonstrating the chatbots effectiveness in enhancing query resolution, improving the learning experience, and streamlining workload for educators.",
     technologies: ["Python", "NLP", "ML", "Streamlit", "PyPDF2", "LangChain",],
     githubUrl: "https://github.com/omarriyaz/Teaching_Assistant_Chatbot",
-    pdfName: "Diss.pdf",
+    pdfName: Diss,
   },
 
 
@@ -74,7 +79,7 @@ export const PROJECTS = [
 
   {
     title: "Data Visualization Project",
-    subtitle: "COVID-19 Vaccination Effects on Cases and Deaths Worldwide",
+    subtitle: "COVID-19 Vaccination Effects visualized",
     description:
       "I also undertook a Data Visualization project using a COVID-19 dataset. After exploring and cleaning the dataset using Pandas and NumPy, I used HTML, CSS, JavaScript, and the D3 library to visualize the data on a dashboard. Employing line charts, a choropleth, bar charts, bubble charts, and donut charts, all with tooltips, transitions and animations to showcase the effects of COVID-19 vaccination on deaths and cases worldwide.",
     technologies: ["HTML/CSS", "JavaScript", "D3", "Pandas", "NumPy", "Data Visualization"],
@@ -84,11 +89,11 @@ export const PROJECTS = [
 
   {
     title: "Robotics Project",
-    subtitle: "Mars Rover Exploration using Behavior Based and Evolutionary Robotics",
+    subtitle: "Mars Rover Exploration using BBR and ER in Webots",
     description:
       "The project was delivered using Behavior Based Robotics (BBR) and Evolutionary Robotics (ER), and the controllers were coded in Python for a Mars rover replica in Webots. BBR controllers successfully navigated predetermined paths and reward zones, while the ER approach faced challenges, motivating further ways to drive enhancements. This project was very crucial in teaching me the practical challenges and in providing us valuable insights into the effectiveness and limitations of bio-inspired strategies in Mars exploration.",
     technologies: ["Python", "Webots", "Robotics", "BBR", "ER"],
-    pdfName: "F21RO.pdf",
+    pdfName: RO,
   },
 
   {
@@ -102,7 +107,7 @@ export const PROJECTS = [
 
   {
     title: "Porfolio Website Project",
-    subtitle: "Personal Portfolio Website using React and Tailwind CSS",
+    subtitle: "Portfolio Website using React and Tailwind CSS",
     description:
       "I designed and developed my personal portfolio website using React and Tailwind CSS. The website showcases my projects, experiences, and contact information in a visually appealing and user-friendly manner. I implemented animations and transitions to enhance the user experience and ensure the website is engaging and interactive. The project allowed me to demonstrate my web development skills and creativity, and provided me with a platform to showcase my work and connect with potential employers and collaborators.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML/CSS", "Web Development"],
