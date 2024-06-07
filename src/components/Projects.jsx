@@ -1,4 +1,6 @@
 import { PROJECTS } from "../constants";
+import { FaGithub, FaYoutubeSquare } from "react-icons/fa";
+import { RiFilePdf2Fill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -19,15 +21,26 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 flex items-center justify-center"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              {/* GitHub icon */}
+              {project.githubUrl && (
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="text-2xl hover:text-purple-500 cursor-pointer" />
+                </a>
+              )}
+              {/* YouTube icon */}
+              {project.youtubeLink && (
+                <a href={project.youtubeLink} target="_blank" rel="noopener noreferrer">
+                  <FaYoutubeSquare className="text-2xl  hover:text-purple-500 cursor-pointer ml-4" />
+                </a>
+              )}
+              {/* PDF icon */}
+              {project.pdfName && (
+                <a href={project.pdfName} target="_blank" rel="noopener noreferrer">
+                  <RiFilePdf2Fill className="text-2xl hover:text-purple-500 cursor-pointer ml-4" />
+                </a>
+              )}
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -35,12 +48,18 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              {/* Wrap the title in an anchor tag with the appropriate GitHub URL */}
+              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                <h6 className="mb-2 font-semibold">
+                  {project.title} -{" "}
+                  <span className="text-sm text-purple-100">{project.subtitle}</span>
+                </h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500"
                 >
                   {tech}
                 </span>
