@@ -41,7 +41,7 @@ export const PROJECTS = [
     subtitle: "Song popularity predictor using Spotify Data",
     description:
       "In this collaborative project, we developed a predictive model for song popularity using Spotify data, aiming to predict a song’s popularity based on its attributes. Our work included dataset cleaning and exploring using the Pandas Library, implementing a Python script for efficient data handling, and applying K-Nearest Neighbors, Decision Trees, and Neural Networks for predictive modeling.",
-    technologies: ["Python", "Pandas", "NumPy", "Scikit-Learn", "ML", "TensorFlow", "Keras", "PyTorch"],
+    technologies: ["Python", "Scikit-Learn", "TensorFlow", "Keras", "PyTorch"],
     githubUrl: "https://github.com/dmml-heriot-watt/group-coursework-sos?tab=readme-ov-file",
   },
 
