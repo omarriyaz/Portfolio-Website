@@ -25,9 +25,17 @@ export const EXPERIENCES = [
   {
     year: "Sept '23 - Mar '24",
     role: "Teaching Assistant",
-    company: "Paramount Computer Systems",
+    company: "Heriot Watt University",
     description: `I assisted in Year 1 Software Development lab classes at Heriot Watt University, helping students with Java coding, debugging, IDE setup, and exam marking. I also supported Year 1 students in Web Design and Databases lab classes, addressing queries on website and database design, along with simple PHP implementation.`,
     technologies: ["Java", "PHP", "Python", "HTML/CSS", "SQL"],
+  },
+
+  {
+    year: "Jul '24 - Jul '24",
+    role: "RBC Bluebay Work Experience",
+    company: "Paramount Computer Systems",
+    description: `During my training at RBC BlueBay Global Asset Management, I had the opportunity to observe various teams and engage with several departments, gaining a thorough understanding of the business and strategic decision-making processes on the active trading floors. I learned from the Quant teams and Software Developers about creating proprietary software and machine learning models for stock selection, and working closely with portfolio managers deepened my understanding of managing and creating portfolios. Additionally, I placed third in the stock selection competition and my group won the Sovereign Credit Analysis competition, highlighting the valuable skills and knowledge I acquired during the training.`,
+    technologies: ["Quantitative Analysis", "Stock Selection", "Portfolio Management"],
   },
 
 
