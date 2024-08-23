@@ -63,12 +63,21 @@ export const PROJECTS = [
   },
 
   {
+    title: "NHS Cancer Wait Times Analysis",
+    subtitle: "EDA Project on NHS Cancer Wait Times Dataset",
+    description:
+      "Analyzed the Cancer Waiting Times dataset from the Public Health Scotland Open Data platform to assess compliance with 62-day and 31-day cancer treatment standards across Scotland. Focused on identifying regional variations in waiting times, trends over time, and disparities across specific cancer types, including Head & Neck, Lung, and Breast cancer. Conducted a comprehensive analysis that revealed significant differences in waiting times between NHS boards and council areas, identified common delays in the cancer treatment pathway, and highlighted areas needing improvement. The findings provided actionable insights into enhancing cancer care delivery and informed strategies for reducing treatment delays, contributing to the overall goal of improving patient outcomes in Scotland.",
+    technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Data Analysis"],
+    githubUrl: "https://github.com/omarriyaz/NHS_cancer_wait_times_analysis",
+  },
+
+  {
     title: "Conversational Agent Project",
     subtitle: "Impact of Narratives on HRI",
     description:
       "Led a team of 8 in a study exploring how narratives affect human-robot interactions for navigation tasks. We used a Furhat robot with OpenAI’s GPT-3.5 as a dialogue system to evaluate how narratives influence instruction correctness, utility, recall, follow-up questions, and the robot's anthropomorphism and likeability. The project involved Python for data analysis, Kotlin for programming, prompt engineering, and building a virtual environment with rigorous experimental design. This work was selected by our professor for submission to the HAI conference, reflecting its significance and contribution to the field.",
     technologies: ["Python", "Kotlin", "Prompt Engineering", "NLP", "NLG"],
-    githubUrl: "https://github.com/Shivaanee/Furhat-Nav-Assistant",
+    githubUrl: "https://github.com/omarriyaz/FurGuide-Navigation-Assistant",
     youtubeLink: "https://www.youtube.com/watch?v=13Q6qLhceL8",
     pdfName: CA,
   },
