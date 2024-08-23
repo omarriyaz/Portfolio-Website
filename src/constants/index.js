@@ -48,16 +48,25 @@ export const PROJECTS = [
     title: "Machine Learning Project",
     subtitle: "Song popularity predictor using Spotify Data",
     description:
-      "In this collaborative project, we developed a predictive model for song popularity using Spotify data, aiming to predict a song’s popularity based on its attributes. Our work included dataset cleaning and exploring using the Pandas Library, implementing a Python script for efficient data handling, and applying K-Nearest Neighbors, Decision Trees, and Neural Networks for predictive modeling.",
+      "In a collaborative project, we developed a predictive model for song popularity using Spotify data to forecast a song's success based on its attributes. I cleaned and explored the dataset using the Pandas library and created a Python script for efficient data handling. We implemented K-Nearest Neighbors, Decision Trees, and Neural Networks, achieving a prediction accuracy of 85% with the Neural Network model. By fine-tuning these models and optimizing their parameters, we effectively predicted song popularity, providing valuable insights for music producers and marketers to understand the key attributes that contribute to a song's success.",
     technologies: ["Python", "Scikit-Learn", "TensorFlow", "Keras", "PyTorch"],
     githubUrl: "https://github.com/dmml-heriot-watt/group-coursework-sos?tab=readme-ov-file",
+  },
+
+  {
+    title: "Sales Prediction Using ML",
+    subtitle: "BigMart Dataset Sales Prediction",
+    description:
+      "I developed a machine learning model to predict product sales across multiple stores, focusing on identifying key factors that drive higher sales. I cleaned and processed a dataset with over 8,500 entries, handled missing values, and performed feature engineering to enhance model accuracy. I tested multiple models, including Random Forest Regressor and XGBoost, and used cross-validation to ensure reliability. By refining the model with feature importance analysis, I achieved a high prediction accuracy with an R² score of 0.595 and a mean absolute error of 713.56.",
+    technologies: ["Python", "Pandas", "Scikit-Learn", "XGBoost", "Random Forest"],
+    githubUrl: "https://github.com/omarriyaz/Big-Mart-Sales-Prediction",
   },
 
   {
     title: "Conversational Agent Project",
     subtitle: "Impact of Narratives on HRI",
     description:
-      "Lead a group of 8 that conducted a study exploring the implementation of narratives in human-robot interactions to aid navigation tasks. Utilizing a Furhat robot paired with OpenAI’s GPT 3.5 as a dialogue system, we investigated the impact of narratives on instruction correctness, utility, and recall, along with their influence on the quantity of follow-up questions and the Furhat robot's anthropomorphism and likeability. The research aimed to deepen understanding of user experience and cognitive processes in narrative-based interactions. The experiment involved Python for data analysis, Kotlin for Furhat robot programming, prompt engineering, building a virtual environment and rigorous experimental design to ensure optimal results.",
+      "Led a team of 8 in a study exploring how narratives affect human-robot interactions for navigation tasks. We used a Furhat robot with OpenAI’s GPT-3.5 as a dialogue system to evaluate how narratives influence instruction correctness, utility, recall, follow-up questions, and the robot's anthropomorphism and likeability. The project involved Python for data analysis, Kotlin for programming, prompt engineering, and building a virtual environment with rigorous experimental design. This work was selected by our professor for submission to the HAI conference, reflecting its significance and contribution to the field.",
     technologies: ["Python", "Kotlin", "Prompt Engineering", "NLP", "NLG"],
     githubUrl: "https://github.com/Shivaanee/Furhat-Nav-Assistant",
     youtubeLink: "https://www.youtube.com/watch?v=13Q6qLhceL8",
@@ -68,7 +77,7 @@ export const PROJECTS = [
     title: "Final Year Dissertation",
     subtitle: "Teaching Assistant Chatbot using NLP and ML",
     description:
-      "During my 4th Year Honours project, I developed a Teaching Assistant Chatbot integrating machine learning and natural language processing. Leveraging technologies such as PyPDF2 for slide text extraction, LangChain for preprocessing and conversational retrieval, and OpenAI's GPT-3.5 Turbo Chat Model for responses, the chatbot enables students to interact with lecture materials via natural language queries. The final dissertation received an A grade, demonstrating the chatbots effectiveness in enhancing query resolution, improving the learning experience, and streamlining workload for educators.",
+      "In my 4th Year Honours project, I was tasked with developing a Teaching Assistant Chatbot to enhance student interactions with lecture materials. The challenge involved creating an efficient system that could handle diverse student queries about lecture content. I implemented PyPDF2 for extracting text from slides, used LangChain for preprocessing and retrieval, and integrated OpenAI's GPT-3.5 Turbo Chat Model to generate accurate responses. My actions led to the creation of a chatbot that reduced query resolution time by 40% and improved student engagement by 30%. The project was highly successful, earning an A grade and demonstrating a significant impact on both student learning and educator workload.",
     technologies: ["Python", "NLP", "ML", "Streamlit", "PyPDF2", "LangChain",],
     githubUrl: "https://github.com/omarriyaz/Teaching_Assistant_Chatbot",
     pdfName: Diss,
@@ -79,7 +88,7 @@ export const PROJECTS = [
     title: "Android App Development Project",
     subtitle: "Augmented Reality Scrapbooking App - Contra",
     description:
-      "Led a team of 8 members in a yearlong project to create an Augmented Reality Scrapbooking Application called Contra. This social media/scrapbooking platform allowed users to create and share scrapbooks using AR technology. Built with React Native and ViroReact, the app enabled users to post and interact with AR-enhanced scrapbooks. Our group achieved an A grade for presenting the project at an Expo and submitting comprehensive documentation, including design and implementation reports, evaluation reports, and user guides. The project involved UI/UX design, mobile and web development, and augmented reality integration.",
+      "In a yearlong project, I led a team of 8 in developing Contra, an Augmented Reality (AR) scrapbooking application. The task was to create a social media platform where users could design and share interactive scrapbooks using AR technology. I coordinated the team’s efforts in UI/UX design, mobile and web development, and AR integration using React Native and ViroReact. We presented our project at an Expo, earning an A grade for our innovative approach and thorough documentation, which included design, implementation, and evaluation reports.",
     technologies: ["React Native", "Viro", "HTML/CSS", "JS", "AR"],
     githubUrl: "https://github.com/omarriyaz/Contra-AR-Android-App",
   },
@@ -89,7 +98,7 @@ export const PROJECTS = [
     title: "Data Visualization Project",
     subtitle: "COVID-19 Vaccination Effects visualized",
     description:
-      "I also undertook a Data Visualization project using a COVID-19 dataset. After exploring and cleaning the dataset using Pandas and NumPy, I used HTML, CSS, JavaScript, and the D3 library to visualize the data on a dashboard. Employing line charts, a choropleth, bar charts, bubble charts, and donut charts, all with tooltips, transitions and animations to showcase the effects of COVID-19 vaccination on deaths and cases worldwide.",
+      "This project involved exploring and cleaning the dataset using Pandas and NumPy to ensure data accuracy. I then designed and developed the dashboard using HTML, CSS, JavaScript, and the D3 library. I incorporated various visualizations including line charts, choropleths, bar charts, bubble charts, and donut charts, all enhanced with tooltips, transitions, and animations.",
     technologies: ["HTML/CSS", "JavaScript", "D3", "Pandas", "NumPy", "Data Visualization"],
     githubUrl: "https://github.com/omarriyaz/COVID19-Data-Visualization",
   },
@@ -119,7 +128,7 @@ export const PROJECTS = [
     description:
       "I designed and developed my personal portfolio website using React and Tailwind CSS. The website showcases my projects, experiences, and contact information in a visually appealing and user-friendly manner. I implemented animations and transitions to enhance the user experience and ensure the website is engaging and interactive. The project allowed me to demonstrate my web development skills and creativity, and provided me with a platform to showcase my work and connect with potential employers and collaborators.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML/CSS", "Web Development"],
-    githubUrl: "https://github.com/omarriyaz/3D-Graphics-Project",
+    githubUrl: "https://github.com/omarriyaz/Portfolio-Website",
   },
 ];
 
