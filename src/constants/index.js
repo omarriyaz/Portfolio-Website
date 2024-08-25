@@ -64,7 +64,7 @@ export const PROJECTS = [
 
   {
     title: "NHS Cancer Wait Times Analysis",
-    subtitle: "EDA Project on NHS Cancer Wait Times Dataset",
+    subtitle: "EDA on NHS Cancer Wait Times Data",
     description:
       "Analyzed the Cancer Waiting Times dataset from the Public Health Scotland Open Data platform to assess compliance with 62-day and 31-day cancer treatment standards across Scotland. Focused on identifying regional variations in waiting times, trends over time, and disparities across specific cancer types, including Head & Neck, Lung, and Breast cancer. Conducted a comprehensive analysis that revealed significant differences in waiting times between NHS boards and council areas, identified common delays in the cancer treatment pathway, and highlighted areas needing improvement. The findings provided actionable insights into enhancing cancer care delivery and informed strategies for reducing treatment delays, contributing to the overall goal of improving patient outcomes in Scotland.",
     technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Data Analysis"],
@@ -84,7 +84,7 @@ export const PROJECTS = [
 
   {
     title: "Beat Catalog Automation Script",
-    subtitle: "Using Python for Beat Organization and Labeling",
+    subtitle: "Using Python for Audio Organization",
     description:
       "As a music producer, I developed a Python script to automate the organization and labeling of my extensive beat catalog, which includes over 2000 beats I created in FL Studio. Using tools like librosa, numpy, and pydub, the script efficiently converts MP3 files to WAV format, removes the initial 25 milliseconds of silence added by FL Studio, and calculates the BPM and musical key of each beat. This automation reduces the time required to provide artists with beat details by a significant amount, eliminating the need for manual detection with external plugins and enhancing workflow efficiency. The script processed and organized beats with an accuracy rate of up to 70%, making it a valuable tool for quickly sharing beats with artists.",
     technologies: ["Python", "Librosa", "NumPy", "Pydub", "FL Studio"],
@@ -104,7 +104,7 @@ export const PROJECTS = [
 
   {
     title: "Android App Development Project",
-    subtitle: "Augmented Reality Scrapbooking App - Contra",
+    subtitle: "AR Scrapbooking App - Contra",
     description:
       "In a yearlong project, I led a team of 8 in developing Contra, an Augmented Reality (AR) scrapbooking application. The task was to create a social media platform where users could design and share interactive scrapbooks using AR technology. I coordinated the team’s efforts in UI/UX design, mobile and web development, and AR integration using React Native and ViroReact. We presented our project at an Expo, earning an A grade for our innovative approach and thorough documentation, which included design, implementation, and evaluation reports.",
     technologies: ["React Native", "Viro", "HTML/CSS", "JS", "AR"],
