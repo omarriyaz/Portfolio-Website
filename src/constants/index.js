@@ -83,6 +83,15 @@ export const PROJECTS = [
   },
 
   {
+    title: "Beat Catalog Automation Script",
+    subtitle: "Using Python for Beat Organization and Labeling",
+    description:
+      "As a music producer, I developed a Python script to automate the organization and labeling of my extensive beat catalog, which includes over 2000 beats I created in FL Studio. Using tools like librosa, numpy, and pydub, the script efficiently converts MP3 files to WAV format, removes the initial 25 milliseconds of silence added by FL Studio, and calculates the BPM and musical key of each beat. This automation reduces the time required to provide artists with beat details by a significant amount, eliminating the need for manual detection with external plugins and enhancing workflow efficiency. The script processed and organized beats with an accuracy rate of up to 70%, making it a valuable tool for quickly sharing beats with artists.",
+    technologies: ["Python", "Librosa", "NumPy", "Pydub", "FL Studio"],
+    githubUrl: "https://github.com/omarriyaz/organize-my-beats",
+  },
+
+  {
     title: "Final Year Dissertation",
     subtitle: "Teaching Assistant Chatbot using NLP and ML",
     description:
