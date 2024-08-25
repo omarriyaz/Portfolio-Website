@@ -33,7 +33,7 @@ export const EXPERIENCES = [
   {
     year: "Jul '24 - Jul '24",
     role: "RBC Bluebay Work Experience",
-    company: "Paramount Computer Systems",
+    company: "RBC BlueBay Global Asset Management",
     description: `During my training at RBC BlueBay Global Asset Management, I had the opportunity to observe various teams and engage with several departments, gaining a thorough understanding of the business and strategic decision-making processes on the active trading floors. I learned from the Quant teams and Software Developers about creating proprietary software and machine learning models for stock selection, and working closely with portfolio managers deepened my understanding of managing and creating portfolios. Additionally, I placed third in the stock selection competition and my group won the Sovereign Credit Analysis competition, highlighting the valuable skills and knowledge I acquired during the training.`,
     technologies: ["Quantitative Analysis", "Stock Selection", "Portfolio Management"],
   },
