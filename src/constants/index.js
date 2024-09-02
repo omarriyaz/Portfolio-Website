@@ -54,12 +54,21 @@ export const PROJECTS = [
   },
 
   {
-    title: "Sales Prediction Using ML",
-    subtitle: "BigMart Dataset Sales Prediction",
+    title: "Clean Blast Sales Insights",
+    subtitle: "Data Visualization Dashboard for an Industrial Equipment Company",
     description:
-      "I developed a machine learning model to predict product sales across multiple stores, focusing on identifying key factors that drive higher sales. I cleaned and processed a dataset with over 8,500 entries, handled missing values, and performed feature engineering to enhance model accuracy. I tested multiple models, including Random Forest Regressor and XGBoost, and used cross-validation to ensure reliability. By refining the model with feature importance analysis, I achieved a high prediction accuracy with an R² score of 0.595 and a mean absolute error of 713.56.",
-    technologies: ["Python", "Pandas", "Scikit-Learn", "XGBoost", "Random Forest"],
-    githubUrl: "https://github.com/omarriyaz/Big-Mart-Sales-Prediction",
+      "For an Industrial Equipment Supplier, Clean Blast, I developed a comprehensive sales analytics solution using Python, pandas, and Streamlit, which processed and visualized over 20,000 records of sales data. The dashboard I created enabled Clean Blast to identify key trends and patterns, such as the top 10 customers contributing to the majority of the revenue and the highest-selling products by frequency. By providing these insights, the solution offered actionable intelligence that could help the company optimize its sales strategies, ultimately aiming to increase revenue and improve customer targeting.",
+    technologies: ["Python", "Pandas", "Data Visualization", "Sales Analytics"],
+    githubUrl: "https://github.com/omarriyaz/Clean-Blast-Sales-Insights",
+  },
+
+  {
+    title: "AI Career Advice Web App",
+    subtitle: "AI-powered project idea generator for students",
+    description:
+      "Developed an AI-powered Python web application to generate project ideas and provide actionable advice for students aiming to break into their chosen career fields. The app uses the YouTube Data API to retrieve relevant videos based on user input, extracts transcripts with youtube-transcript-api, and employs the Ollama LLaMA model to synthesize this information into comprehensive project ideas, including descriptions, technologies, outcomes, and then suggests variations for each idea. Successfully integrated multiple Python components to fetch, process, and analyze content, offering tailored project recommendations to students. This solution streamlines the discovery of actionable career advice and project planning across various fields.",
+    technologies: ["Python", "Youtube API", "LLM", "AI", "Llama3.1"],
+    githubUrl: "https://github.com/omarriyaz/ai-project-ideas/tree/main",
   },
 
   {
@@ -129,6 +138,15 @@ export const PROJECTS = [
       "The project was delivered using Behavior Based Robotics (BBR) and Evolutionary Robotics (ER), and the controllers were coded in Python for a Mars rover replica in Webots. BBR controllers successfully navigated predetermined paths and reward zones, while the ER approach faced challenges, motivating further ways to drive enhancements. This project was very crucial in teaching me the practical challenges and in providing us valuable insights into the effectiveness and limitations of bio-inspired strategies in Mars exploration.",
     technologies: ["Python", "Webots", "Robotics", "BBR", "ER"],
     pdfName: RO,
+  },
+
+  {
+    title: "Sales Prediction Using ML",
+    subtitle: "BigMart Dataset Sales Prediction",
+    description:
+      "I developed a machine learning model to predict product sales across multiple stores, focusing on identifying key factors that drive higher sales. I cleaned and processed a dataset with over 8,500 entries, handled missing values, and performed feature engineering to enhance model accuracy. I tested multiple models, including Random Forest Regressor and XGBoost, and used cross-validation to ensure reliability. By refining the model with feature importance analysis, I achieved a high prediction accuracy with an R² score of 0.595 and a mean absolute error of 713.56.",
+    technologies: ["Python", "Pandas", "Scikit-Learn", "XGBoost", "Random Forest"],
+    githubUrl: "https://github.com/omarriyaz/Big-Mart-Sales-Prediction",
   },
 
   {
