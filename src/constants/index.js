@@ -3,14 +3,14 @@ import Diss from "../assets/Diss.pdf";
 import RO from "../assets/F21RO.pdf";
 
 
-export const HERO_CONTENT = `I'm a BSc Computer Science Honors graduate from Heriot-Watt University with a focus on AI and Data Science. I'm skilled in Python, Java, SQL, and other programming languages, and have hands-on experience in Robotics, Machine Learning, and Data Analytics and Visualization. I've gained practical knowledge in Intelligent Automation and Cyber Security through internships and a Teaching Assistant role. I have strong communication skills, am self-driven, and always eager to learn. I'm particularly interested in AI applications in healthcare, sustainability, and automation. Outside of tech, I'm also a music producer with a successful YouTube channel and a competitive basketball player with leadership experience.`;
+export const HERO_CONTENT = `I am a MSc student at Bath University, specializing in AI and Data Science. I possess strong skills in Python, Java, SQL, and other programming languages, with hands-on experience in Robotics, Machine Learning, and Data Analytics and Visualization. Through work experience, I have gained practical knowledge in Intelligent Automation, Software Devlopment and Data Science. I have strong communication skills, am self-driven, and eager to learn. My interests lie particularly in AI applications within healthcare, sustainability, and automation. Outside of tech, I am also a music producer with a successful YouTube channel and a competitive basketball player with leadership experience.`;
 
 export const EXPERIENCES = [
   {
     year: "Jul '21 - Sept '21",
     role: "Software Engineering Intern",
     company: "Automation Anywhere",
-    description: `As a Software Engineering Intern at Automation Anywhere, I developed Java modules for their Automation360 cloud platform. I contributed to migrating on-premises bots to the cloud and created a custom bot for the Heriot-Watt student portal, automating exam result delivery and re-sit examination guidance. I collaborated with the Quality Assurance Team, gaining experience in testing methodologies and ensuring product development met user requirements.`,
+    description: `Developed and Integrated Java modules for the Automation360 cloud platform. Contributed to the migration of 20 on-premises bots to the cloud, improving scalability and reducing maintenance for business processes. Created a custom bot for Heriot-Watt University’s student portal, automating exam result notifications and re-sit guidance, streamlining information delivery for students. Collaborated with the QA Team to implement testing methods, ensuring adherence to user requirements.`,
     technologies: ["Java", "Automation", "RPA", "Quality Assurance"],
   },
 
@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     year: "Jun '23 - Jul '23",
     role: "Cyber Security Intern",
     company: "Paramount Computer Systems",
-    description: `During my internship at Paramount Computer Systems, I explored cybersecurity principles and Microsoft's security solutions like Azure and Microsoft 365. I led a project implementing various security measures, including Conditional Access policies, email and endpoint security optimization, cloud application security, Data Loss Prevention, Network Security Group setup in Azure, and configuration of Microsoft Sentinel for proactive cybersecurity.`,
+    description: `Explored cybersecurity frameworks and Microsoft's security solutions, including Azure and Microsoft 365, enhancing knowledge of these technologies. Implemented Conditional Access, cloud security, DLP policies, and NSGs in Azure.`,
     technologies: ["MS Azure", "MS Sentinel", "MS 365", "Cybersecurity"],
   },
 
@@ -26,7 +26,7 @@ export const EXPERIENCES = [
     year: "Sept '23 - Mar '24",
     role: "Teaching Assistant",
     company: "Heriot Watt University",
-    description: `I assisted in Year 1 Software Development lab classes at Heriot Watt University, helping students with Java coding, debugging, IDE setup, and exam marking. I also supported Year 1 students in Web Design and Databases lab classes, addressing queries on website and database design, along with simple PHP implementation.`,
+    description: `Assisted for the Software Development and Databases courses, guiding students through coding challenges, debugging, and IDE setup for over 100 students. Tutored at the Code Clinic, a coding support program, offering tailored guidance on various programming issues.`,
     technologies: ["Java", "PHP", "Python", "HTML/CSS", "SQL"],
   },
 
@@ -34,8 +34,16 @@ export const EXPERIENCES = [
     year: "Jul '24 - Jul '24",
     role: "RBC Bluebay Work Experience",
     company: "RBC BlueBay Global Asset Management",
-    description: `During my training at RBC BlueBay Global Asset Management, I had the opportunity to observe various teams and engage with several departments, gaining a thorough understanding of the business and strategic decision-making processes on the active trading floors. I learned from the Quant teams and Software Developers about creating proprietary software and machine learning models for stock selection, and working closely with portfolio managers deepened my understanding of managing and creating portfolios. Additionally, I placed third in the stock selection competition and my group won the Sovereign Credit Analysis competition, highlighting the valuable skills and knowledge I acquired during the training.`,
+    description: `Gained in-depth exposure to business operations and strategic decision-making by observing multiple teams on active trading floors at RBC BlueBay Global Asset Management. Engaged with Quant teams and Software Developers to learn about developing proprietary software and machine learning models for stock selection, improving analytical skills.`,
     technologies: ["Quantitative Analysis", "Stock Selection", "Portfolio Management"],
+  },
+
+  {
+    year: "Jul '24 - Jul '24",
+    role: "Software Developer",
+    company: "Clean Blast International",
+    description: `Developed a custom application to automate the extraction, cleaning and visualization of sales data, streamlining data processing for over 20,000 transactions. Built an interactive dashboard displaying key performance indicators to provide real-time insights into company performance, boosting decision-making efficiency.`,
+    technologies: ["Python", "Data Analyst", "Data Visualization", "Sales Analytics"],
   },
 
 
@@ -51,15 +59,6 @@ export const PROJECTS = [
       "In a collaborative project, we developed a predictive model for song popularity using Spotify data to forecast a song's success based on its attributes. I cleaned and explored the dataset using the Pandas library and created a Python script for efficient data handling. We implemented K-Nearest Neighbors, Decision Trees, and Neural Networks, achieving a prediction accuracy of 85% with the Neural Network model. By fine-tuning these models and optimizing their parameters, we effectively predicted song popularity, providing valuable insights for music producers and marketers to understand the key attributes that contribute to a song's success.",
     technologies: ["Python", "Scikit-Learn", "TensorFlow", "Keras", "PyTorch"],
     githubUrl: "https://github.com/dmml-heriot-watt/group-coursework-sos?tab=readme-ov-file",
-  },
-
-  {
-    title: "Clean Blast Sales Insights",
-    subtitle: "Data Visualization Dashboard for an Industrial Equipment Company",
-    description:
-      "For an Industrial Equipment Supplier, Clean Blast, I developed a comprehensive sales analytics solution using Python, pandas, and Streamlit, which processed and visualized over 20,000 records of sales data. The dashboard I created enabled Clean Blast to identify key trends and patterns, such as the top 10 customers contributing to the majority of the revenue and the highest-selling products by frequency. By providing these insights, the solution offered actionable intelligence that could help the company optimize its sales strategies, ultimately aiming to increase revenue and improve customer targeting.",
-    technologies: ["Python", "Pandas", "Data Visualization", "Sales Analytics"],
-    githubUrl: "https://github.com/omarriyaz/Clean-Blast-Sales-Insights",
   },
 
   {
@@ -169,7 +168,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "24 Westfield Rd, Edinburgh, EH11 2QB, United Kingdom",
+  address: "34 Lower Bristol Road, Bath, BA2 3GX, United Kingdom",
   phoneNo: "+44 7541 182 796",
   email: "omarriyazbusiness@gmail.com",
 };

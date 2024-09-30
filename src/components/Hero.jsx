@@ -41,7 +41,7 @@ const Hero = () => {
             animate="visible"
             className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-3xl text-transparent text-center lg:text-left"
           >
-            BSc Computer Science Graduate
+            MSc Data Science
           </motion.span>
           <motion.p
             variants={container(1)}
