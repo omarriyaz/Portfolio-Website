@@ -42,7 +42,7 @@ export const EXPERIENCES = [
     year: "Jul '24 - Jul '24",
     role: "Software Developer",
     company: "Clean Blast International",
-    description: `Developed a custom application to automate the extraction, cleaning and visualization of sales data, streamlining data processing for over 20,000 transactions. Built an interactive dashboard displaying key performance indicators to provide real-time insights into company performance, boosting decision-making efficiency.`,
+    description: `Developed a custom Python application to automate the extraction, cleaning and visualization of sales data, streamlining data processing for over 20,000 transactions. Built an interactive dashboard displaying key performance indicators to provide real-time insights into company performance, boosting decision-making efficiency.`,
     technologies: ["Python", "Data Analyst", "Data Visualization", "Sales Analytics"],
   },
 
