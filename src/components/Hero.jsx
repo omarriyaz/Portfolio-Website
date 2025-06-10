@@ -17,6 +17,7 @@ const Hero = () => {
       <div className="w-full lg:w-1/2 lg:p-8">
         <div className="flex justify-start">
           <motion.img
+            className="w-[450px] h-[450px] rounded-full object-cover"
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
@@ -34,14 +35,13 @@ const Hero = () => {
             className="pb-16 text-6xl tracking-tight lg:mt-16 lg:text-8xl text-center lg:text-left"
           >
             Omar Riyaz
-          </motion.h2>
-          <motion.span
+          </motion.h2>          <motion.span
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
-            className="bg-gradient-to-r from-pink-300 to-purple-500 bg-clip-text text-3xl text-transparent text-center lg:text-left"
+            className="bg-gradient-to-r from-purple-500 to-pink-300 bg-clip-text text-3xl text-transparent text-center lg:text-left"
           >
-            MSc Data Science
+            SWE | MSc Data Science
           </motion.span>
           <motion.p
             variants={container(1)}
