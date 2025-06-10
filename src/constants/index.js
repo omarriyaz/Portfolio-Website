@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   },
 
   {
-    year: "Jul '24 - Jul '24",
+    year: "Jul '24 - Aug '24",
     role: "Software Developer",
     company: "Clean Blast International",
     description: `Developed a custom Python based app to automate the extraction, cleaning and visualization of sales data. Built an interactive dashboard displaying key performance indicators to provide real-time insights into company performance.`,
