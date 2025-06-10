@@ -42,7 +42,7 @@ export const EXPERIENCES = [
   },
 
   {
-    year: "Jun '23 - Jul '23",
+    year: "May '23 - Jul '23",
     role: "Cyber Security Intern",
     company: "Paramount Computer Systems",
     description: `Learned about cybersecurity frameworks and Microsoft's security solutions, including Azure and Microsoft 365. Implemented Conditional Access, cloud security, DLP policies, and NSGs in Azure, as a part of a capestone project.`,
